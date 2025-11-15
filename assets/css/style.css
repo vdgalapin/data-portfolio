@@ -8,15 +8,8 @@
     padding: 15px;
     border-radius: 10px;
     background: #f5f5f5;
-    box-shadow: 0 0 8px rgba(0,0,0,.1);
+    box-shadow: 0 0 8px rgba(0, 0, 0, .1);
     text-align: center;
-}
-
-.project-card img {
-    width: 100%;
-    height: 180px;
-    object-fit: cover;
-    border-radius: 10px;
 }
 
 .download-btn {
@@ -29,14 +22,64 @@
     text-decoration: none;
 }
 
-.nav {
+
+
+.flex-container {
     display: flex;
-    gap: 20px;
-    padding: 20px 0;
+    flex-direction: row;
+    gap: 25px;
 }
 
-.nav a {
-    text-decoration: none;
-    font-weight: bold;
-    color: #333;
+.flex-left,
+.flex-right {
+    flex: 1;
 }
+
+.title-header {
+    margin: 30px 0;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    text-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+}
+
+/********** START LARGER DEVICE **********/
+@media (min-width: 1200px) {}
+
+/********** END LARGER DEVICE   **********/
+
+
+
+
+/********** START MEDIUM DEVICE **********/
+@media (min-width: 992px) and (max-width: 1199px) {}
+
+/********** END MEDIUM DEVICE   **********/
+
+
+
+
+/********** START SMALL DEVICE **********/
+@media (min-width: 768px) and (max-width: 991px) {
+    /* Header */
+
+    #collapsable-nav #nav-list {
+        float: left !important;
+    }
+
+    /* Header */
+
+}
+
+/********** END SMALL DEVICE   **********/
+
+
+
+
+/********** STAR EXTRA SMALL DEVICE **********/
+@media (max-width: 767px) {}
+
+
+/********** END EXTRA SMALL DEVICE   **********/
