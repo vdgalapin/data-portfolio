@@ -22,19 +22,6 @@
     text-decoration: none;
 }
 
-
-
-.flex-container {
-    display: flex;
-    flex-direction: row;
-    gap: 25px;
-}
-
-.flex-left,
-.flex-right {
-    flex: 1;
-}
-
 .title-header {
     margin: 30px 0;
 }
@@ -53,8 +40,21 @@ a {
 
 
 
-/********** START MEDIUM DEVICE **********/
-@media (min-width: 992px) and (max-width: 1199px) {}
+/***e******* START MEDIUM DEVICE **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+
+    /* .flex-container {
+        display: flex;
+        flex-direction: row;
+        gap: 25px;
+    }
+
+    .flex-left,
+    .flex-right {
+        flex: 1;
+    } */
+
+}
 
 /********** END MEDIUM DEVICE   **********/
 
