@@ -11,7 +11,7 @@ download: "/downloads/warehouse_operations.zip"
     <div class="flex-left" style = "overflow-y: scroll;">
         <!-- <embed  src="{{ '/assets/pdf/warehouse_operations_analysis.pdf' | relative_url }}" width="100%" height="600px"> -->
         <iframe 
-        src="{{ '/assets/pdf/warehouse_operation_analysis.pdf' | relative_url }}#zoom=page-width&view=fitH" 
+        src="{{ '/assets/pdf/warehouse_operations_analy6sis.pdf' | relative_url }}#zoom=page-width&view=fitH" 
         style="width:100%; height:650px; border:0;" 
         allow="fullscreen">
         </iframe>
