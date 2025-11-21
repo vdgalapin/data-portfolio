@@ -11,9 +11,9 @@ download: "/downloads/item_performance_and_management.zip"
     <div class="flex-left" style = "overflow-y: scroll;">
         <!-- <embed  src="{{ '/assets/pdf/sales_item_analysis.pdf' | relative_url }}" width="100%" height="600px"> -->
         <iframe 
-        src="{{ '/assets/pdf/sales_item_analysis.pdf' | absolute_url }}" 
-        style="width:100%; height:650px;" 
-        frameborder="0">
+        src="{{ '/assets/pdf/sales_item_analysis.pdf' | relative_url }}#zoom=page-width&view=fitH" 
+        style="width:100%; height:650px; border:0;" 
+        allow="fullscreen">
         </iframe>
     </div>
     <div class="flex-right">
